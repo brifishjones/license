@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: YoLicense - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPB354.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/YoLicense.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\bjones\license\YoLicense.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB354.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB355.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/YoLicense.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\bjones\license\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB355.TMP" 
+Creating command line "link.exe -lib /nologo /out:"Release\YoLicense.lib"  .\Release\StdAfx.obj .\Release\YoLicense.obj "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+YoLicense.cpp
+C:\bjones\license\YoLicense.cpp(3047) : warning C4700: local variable 'license' used without having been initialized
+Creating library...
+
+
+
+<h3>Results</h3>
+YoLicense.lib - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
